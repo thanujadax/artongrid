@@ -21,6 +21,8 @@ exe_dir=`dirname "$0"`
 #$ -M thanujaa@student.ethz.ch
 #$ -m bea
 
+source /home/sgeadmin/ITETCELL/common/settings.sh
+
 echo "------------------------------------------"
 if [ "x$1" = "x" ]; then
   echo Usage:
